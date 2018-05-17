@@ -14,3 +14,4 @@ A quick website to ask my girlfriend to the BCOE banquet. Visit it here: http://
 
 - Palace of Fine Arts SVG: [Zeit](https://zeit.co/day)
 - Rocket SVG and Moon SVG: [smalllikeart on Flaticon](https://www.flaticon.com/authors/smalllikeart)
+- Text Glitch Effect: [Yash Ghelani on CodePen](https://codepen.io/yashghelani/full/vpOLoZ)
