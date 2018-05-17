@@ -9,6 +9,7 @@ A quick website to ask my girlfriend to the BCOE banquet. Visit it here: http://
 - [Particles.js](https://github.com/VincentGarreau/particles.js/): Particle animation library
 - [Anime](http://animejs.com/): Javascript animation engine
 - [Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/%40keyframes): CSS animation property
+- [Bazzi - Mine (Electric Mantis Remix)](https://soundcloud.com/electricmantis/bazzi-mine-electric-mantis-remix)
 
 ## Credits
 
