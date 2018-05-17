@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #1a1f21;
 	color: ghostwhite;
 	font-family: 'Gothic A1';
 	animation: wtob 5s;
@@ -8,10 +8,12 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 3em;
-	font-weight: 400;
+	font-size: 4em;
+	font-weight: 600;
 	opacity: 0;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
+	text-transform: none;
+	animation: glitch 3s infinite;
 }
 
 h3 {
@@ -32,18 +34,18 @@ svg {
 	position: absolute;
 	display: inline;
 	padding-top: 20%;
-	width: 50px;
-	left: 45%;
+	width: 6%;
+	left: 40%;
 	text-align: center;
 	opacity: 0;
 }
 
 #rocket2 {
-	left: 50%;
+	left: 55%;
 }
 
 #moon {
-	width: 50px;
+	width: 3%;
 	position: absolute;
 	top: 5%;
 	left: 5%;
@@ -70,6 +72,37 @@ svg {
 
 @keyframes wtob {
 	from {background-color: white;}
-	to {background-color: black;}
+	to {background-color: #1a1f21;}
 }
 
+@keyframes glitch {
+  0% {
+    text-shadow: none;
+  }
+  
+  3% {
+    text-shadow:6px 6px #AACD6E;
+
+  }
+  
+  6% {
+    text-shadow:6px 6px #AACD6E, -10px -10px #F16B6F;
+
+  }
+  
+  10% {
+    text-shadow:6px 6px #AACD6E, -10px -10px #F16B6F, 12px 12px #f9c00c;
+
+  }
+  
+  13% {
+    text-shadow:6px 6px #AACD6E, -10px -10px #F16B6F, 12px 12px #f9c00c
+, -25px -25px #00b9f1
+;
+
+  }
+  
+  14%, 100% {
+    text-shadow: none; 
+  }
+}
